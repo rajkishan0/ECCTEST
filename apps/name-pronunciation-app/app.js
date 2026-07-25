@@ -41,6 +41,21 @@
     return voices.find((v) => v.lang.toLowerCase().startsWith(prefix)) || null;
   }
 
+  const BADGE_COLORS = [
+    "#e0645a", "#e0945a", "#d9b64a", "#8fbf5a", "#4fae8a",
+    "#4fa3ae", "#5a8fe0", "#7c8cff", "#9d6bff", "#c264c9", "#d9578f",
+  ];
+
+  function badgeColor(seed) {
+    let hash = 0;
+    for (let i = 0; i < seed.length; i++) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+    return BADGE_COLORS[hash % BADGE_COLORS.length];
+  }
+
+  function badgeCode(langTag) {
+    return (langTag.split("-")[1] || langTag.split("-")[0]).toUpperCase().slice(0, 2);
+  }
+
   function speak(text, langTag, button) {
     if (!speechSupported) return;
 
@@ -71,15 +86,16 @@
     const card = document.createElement("article");
     card.className = "card";
 
-    const voice = findVoice(locale.lang);
-    const available = speechSupported && !!voice;
-    if (!available) card.classList.add("unavailable");
+    const hasExactVoice = !!findVoice(locale.lang);
+    if (!hasExactVoice) card.classList.add("approx");
 
     card.innerHTML = `
-      <div class="card-flag" aria-hidden="true">${locale.flag}</div>
+      <div class="card-badge" style="background:${badgeColor(locale.country + locale.language)}">${badgeCode(locale.lang)}</div>
       <div class="card-body">
         <h3>${locale.country}</h3>
-        <p class="card-language">${locale.language} <span class="locale-tag">${locale.lang}</span></p>
+        <p class="card-language">${locale.language} <span class="locale-tag">${locale.lang}</span>${
+          hasExactVoice ? "" : '<span class="approx-tag">closest available voice</span>'
+        }</p>
       </div>
       <button type="button" class="play-btn" aria-label="Play pronunciation for ${locale.country}, ${locale.language}">
         🔊
@@ -87,9 +103,9 @@
     `;
 
     const button = card.querySelector(".play-btn");
-    if (!available) {
+    if (!speechSupported) {
       button.disabled = true;
-      button.title = "No voice installed for this language in your browser";
+      button.title = "Speech synthesis isn't supported in this browser";
     } else {
       button.addEventListener("click", () => speak(name, locale.lang, button));
     }
