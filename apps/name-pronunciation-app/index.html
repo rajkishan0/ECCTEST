@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NamePronounce — Hear Your Name Around the World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>🌍 NamePronounce</h1>
+    <p class="subtitle">Type your name and hear how it sounds in 50+ languages and accents from around the world.</p>
+  </header>
+
+  <main class="container">
+    <section class="input-panel">
+      <form id="name-form" autocomplete="off">
+        <label for="name-input" class="sr-only">Your name</label>
+        <input
+          id="name-input"
+          name="name"
+          type="text"
+          placeholder="Enter your name…"
+          maxlength="60"
+          required
+        />
+        <button type="submit" id="generate-btn">Generate Pronunciations</button>
+      </form>
+
+      <div class="controls" id="playback-controls" hidden>
+        <label for="rate-range">Speaking rate</label>
+        <input id="rate-range" type="range" min="0.5" max="1.5" step="0.1" value="0.9" />
+        <span id="rate-value">0.9x</span>
+      </div>
+
+      <p id="voice-warning" class="warning" hidden></p>
+    </section>
+
+    <section id="results" class="results" hidden>
+      <div class="results-header">
+        <h2 id="results-title"></h2>
+        <p class="hint">Tap 🔊 on any card to hear that country's pronunciation.</p>
+      </div>
+      <div id="card-grid" class="card-grid"></div>
+    </section>
+
+    <p id="empty-state" class="empty-state">
+      No results yet — enter a name above and press <strong>Generate Pronunciations</strong>.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <p>Pronunciations are produced live by your browser's text-to-speech engine using each region's language locale, so results depend on the voices installed on your device.</p>
+  </footer>
+
+  <script src="locales.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
