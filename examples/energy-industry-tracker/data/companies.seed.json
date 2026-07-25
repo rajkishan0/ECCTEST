@@ -1,0 +1,296 @@
+[
+  {
+    "name": "Schneider Electric",
+    "segment": "Demand Response",
+    "stage": "Public / Diversified",
+    "source": "https://codibly.com/blog/articles/demand-response-companies",
+    "notes": "Market share leader in demand response at ~9.8% (2025). EcoStruxure platform integrates DR hardware and cloud software across industrial, commercial, and utility distribution use cases."
+  },
+  {
+    "name": "Enel X Way",
+    "segment": "Demand Response",
+    "stage": "Subsidiary (Enel)",
+    "source": "https://codibly.com/blog/articles/demand-response-companies",
+    "notes": "Top-5 demand response player by market share; part of Enel Group's broader energy services business."
+  },
+  {
+    "name": "Honeywell",
+    "segment": "Demand Response",
+    "stage": "Public / Diversified",
+    "source": "https://codibly.com/blog/articles/demand-response-companies",
+    "notes": "Top-5 DR player; sells DRMS software (SmartConnect) as SaaS to utilities and large aggregators."
+  },
+  {
+    "name": "Itron",
+    "segment": "Demand Response",
+    "stage": "Public / Diversified",
+    "source": "https://codibly.com/blog/articles/demand-response-companies",
+    "notes": "Top-5 DR player; provides the AMI and grid-intelligence hardware layer for utility DR programs (e.g. IntelliFLEX LV DERMS deployed with Ausgrid, March 2026)."
+  },
+  {
+    "name": "Siemens",
+    "segment": "Demand Response",
+    "stage": "Public / Diversified",
+    "source": "https://codibly.com/blog/articles/demand-response-companies",
+    "notes": "Top-5 DR player via its energy management, smart metering, and grid automation divisions."
+  },
+  {
+    "name": "Voltus",
+    "segment": "Demand Response",
+    "stage": "Private / Growth",
+    "source": "https://www.voltus.co",
+    "notes": "Curtailment service provider — aggregates C&I demand flexibility and bids it into wholesale/ISO and utility DR programs."
+  },
+  {
+    "name": "CPower Energy",
+    "segment": "Demand Response",
+    "stage": "Private / Growth",
+    "source": "https://codibly.com/blog/articles/demand-response-companies",
+    "notes": "Curtailment service provider aggregating commercial and industrial load for ISO demand response programs."
+  },
+  {
+    "name": "Sympower",
+    "segment": "Demand Response",
+    "stage": "Private / Growth",
+    "source": "https://codibly.com/blog/articles/demand-response-companies",
+    "notes": "European curtailment service provider aggregating flexible C&I load into grid balancing markets."
+  },
+  {
+    "name": "Uplight",
+    "segment": "Demand Response",
+    "stage": "Private / Growth",
+    "source": "https://uplight.com/press/uplight-to-acquire-autogrid/",
+    "notes": "DRMS + DERMS SaaS vendor to utilities; acquired AutoGrid from Schneider Electric in Dec 2023 (completed Feb 2024) to add VPP/DERMS capability."
+  },
+  {
+    "name": "GE Vernova",
+    "segment": "DERMS",
+    "stage": "Public",
+    "source": "https://www.gevernova.com/software/blog/ge-vernova-tops-2024-guidehouse-insights-leaderboard-for-derms",
+    "notes": "Ranked #1 in the 2024 Guidehouse Insights DERMS leaderboard (grid DERMS category) for its GridOS software."
+  },
+  {
+    "name": "AspenTech OSI",
+    "segment": "DERMS",
+    "stage": "Public (subsidiary of Aspen Technology)",
+    "source": "https://guidehouseinsights.com/reports/guidehouse-insights-leaderboard-derms-vendors",
+    "notes": "Named a leading grid DERMS vendor in the 2024 Guidehouse Insights leaderboard."
+  },
+  {
+    "name": "Schneider Electric – AutoGrid",
+    "segment": "DERMS",
+    "stage": "Public / Acquired",
+    "source": "https://guidehouseinsights.com/reports/guidehouse-insights-leaderboard-derms-vendors",
+    "notes": "Named a leading grid-edge DERMS provider in 2024 (and a top overall DERMS vendor in 2022, before Uplight acquired AutoGrid from Schneider Electric in Dec 2023)."
+  },
+  {
+    "name": "KrakenFlex",
+    "segment": "DERMS",
+    "stage": "Subsidiary (Octopus Energy / Kraken Technologies)",
+    "source": "https://guidehouseinsights.com/reports/guidehouse-insights-leaderboard-derms-vendors",
+    "notes": "Named a leading grid-edge DERMS provider in the 2024 Guidehouse Insights leaderboard."
+  },
+  {
+    "name": "EnergyHub",
+    "segment": "DERMS",
+    "stage": "Private / Growth",
+    "source": "https://www.prnewswire.com/news-releases/guidehouse-insights-names-schneider-electric--autogrid-generac-grid-services-and-energy-hub-the-leading-derms-vendors-301476607.html",
+    "notes": "Named a leading DERMS/grid-edge vendor in both the 2022 and 2024 Guidehouse Insights leaderboards."
+  },
+  {
+    "name": "Generac Grid Services",
+    "segment": "DERMS",
+    "stage": "Subsidiary (Generac)",
+    "source": "https://www.prnewswire.com/news-releases/guidehouse-insights-names-schneider-electric--autogrid-generac-grid-services-and-energy-hub-the-leading-derms-vendors-301476607.html",
+    "notes": "Named a leading DERMS vendor in the 2022 Guidehouse Insights leaderboard; Generac's grid services / VPP arm."
+  },
+  {
+    "name": "Centrica Business Solutions",
+    "segment": "VPP",
+    "stage": "Subsidiary (Centrica plc)",
+    "source": "https://www.centricabusinesssolutions.com/knowledge-centre/company-news/weve-been-ranked-worlds-number-one-vpp-provider",
+    "notes": "Named the #1 global VPP provider by Guidehouse Insights."
+  },
+  {
+    "name": "AutoGrid",
+    "segment": "VPP",
+    "stage": "Private / Acquired",
+    "source": "https://www.businesswire.com/news/home/20200429005088/en/Guidehouse-Insights-Names-AutoGrid-Systems-Centrica-REstore-Enbala-and-Kiwi-Power-the-Leading-Providers-of-Virtual-Power-Plant-Platforms",
+    "notes": "Named a leading VPP platform vendor (2020 Guidehouse Insights leaderboard); now part of Uplight."
+  },
+  {
+    "name": "Kiwi Power",
+    "segment": "VPP",
+    "stage": "Private",
+    "source": "https://www.businesswire.com/news/home/20200429005088/en/Guidehouse-Insights-Names-AutoGrid-Systems-Centrica-REstore-Enbala-and-Kiwi-Power-the-Leading-Providers-of-Virtual-Power-Plant-Platforms",
+    "notes": "Named a leading VPP platform vendor in the 2020 Guidehouse Insights leaderboard."
+  },
+  {
+    "name": "Next Kraftwerke",
+    "segment": "VPP",
+    "stage": "Subsidiary (Shell, since 2021)",
+    "source": "https://www.startus-insights.com/innovators-guide/virtual-power-plant-companies/",
+    "notes": "Europe's best-known independent VPP operator, aggregating roughly 2,700 distributed generation and consumption units; acquired by Shell in 2021."
+  },
+  {
+    "name": "Sunrun",
+    "segment": "VPP",
+    "stage": "Public",
+    "source": "https://www.startus-insights.com/innovators-guide/virtual-power-plant-companies/",
+    "notes": "Runs the largest residential VPP in the US, with 100K+ households enrolled across 17 VPP programs."
+  },
+  {
+    "name": "Stem, Inc.",
+    "segment": "VPP",
+    "stage": "Public",
+    "source": "https://www.startus-insights.com/innovators-guide/virtual-power-plant-companies/",
+    "notes": "AI-driven storage and VPP software platform (Athena), aggregating distributed battery assets for grid services."
+  },
+  {
+    "name": "Siemens",
+    "segment": "Building Energy Management",
+    "stage": "Public / Diversified",
+    "source": "https://www.businesswire.com/news/home/20250226516700/en/Global-Building-Energy-Management-System-Markets-2025-2030-with-2024-as-the-Base-Year-Featuring-Siemens-Schneider-Electric-Honeywell-Johnson-Controls-ABB-Planon-Spacewell-Carrier---ResearchAndMarkets.com",
+    "notes": "One of the top-4 BEMS vendors that together hold ~76.8% of market revenue (2024)."
+  },
+  {
+    "name": "Schneider Electric",
+    "segment": "Building Energy Management",
+    "stage": "Public / Diversified",
+    "source": "https://www.businesswire.com/news/home/20250226516700/en/Global-Building-Energy-Management-System-Markets-2025-2030-with-2024-as-the-Base-Year-Featuring-Siemens-Schneider-Electric-Honeywell-Johnson-Controls-ABB-Planon-Spacewell-Carrier---ResearchAndMarkets.com",
+    "notes": "Top-4 BEMS vendor by market revenue share (2024)."
+  },
+  {
+    "name": "Johnson Controls",
+    "segment": "Building Energy Management",
+    "stage": "Public / Diversified",
+    "source": "https://www.businesswire.com/news/home/20250226516700/en/Global-Building-Energy-Management-System-Markets-2025-2030-with-2024-as-the-Base-Year-Featuring-Siemens-Schneider-Electric-Honeywell-Johnson-Controls-ABB-Planon-Spacewell-Carrier---ResearchAndMarkets.com",
+    "notes": "Top-4 BEMS vendor by market revenue share (2024)."
+  },
+  {
+    "name": "Planon",
+    "segment": "Building Energy Management",
+    "stage": "Private",
+    "source": "https://www.businesswire.com/news/home/20250226516700/en/Global-Building-Energy-Management-System-Markets-2025-2030-with-2024-as-the-Base-Year-Featuring-Siemens-Schneider-Electric-Honeywell-Johnson-Controls-ABB-Planon-Spacewell-Carrier---ResearchAndMarkets.com",
+    "notes": "Notable independent BEMS / facility management software vendor outside the top-4 concentration."
+  },
+  {
+    "name": "Spacewell",
+    "segment": "Building Energy Management",
+    "stage": "Subsidiary (Nemetschek Group)",
+    "source": "https://www.businesswire.com/news/home/20250226516700/en/Global-Building-Energy-Management-System-Markets-2025-2030-with-2024-as-the-Base-Year-Featuring-Siemens-Schneider-Electric-Honeywell-Johnson-Controls-ABB-Planon-Spacewell-Carrier---ResearchAndMarkets.com",
+    "notes": "Notable independent BEMS vendor named alongside the market's top-4 incumbents."
+  },
+  {
+    "name": "GridPoint",
+    "segment": "Building Energy Management",
+    "stage": "Private / Growth",
+    "source": "https://www.businesswire.com/news/home/20250226516700/en/Global-Building-Energy-Management-System-Markets-2025-2030-with-2024-as-the-Base-Year-Featuring-Siemens-Schneider-Electric-Honeywell-Johnson-Controls-ABB-Planon-Spacewell-Carrier---ResearchAndMarkets.com",
+    "notes": "Notable independent BEMS vendor focused on multi-site commercial energy management."
+  },
+  {
+    "name": "ChargePoint",
+    "segment": "EV Fleet Charging",
+    "stage": "Public",
+    "source": "https://www.transpireinsight.com/blogdetails/top-25-ev-charging-management-software-platform-companies",
+    "notes": "One of the largest EV charging networks and management software platforms, named among market leaders."
+  },
+  {
+    "name": "AMPECO",
+    "segment": "EV Fleet Charging",
+    "stage": "Private / Growth",
+    "source": "https://www.transpireinsight.com/blogdetails/top-25-ev-charging-management-software-platform-companies",
+    "notes": "Charge point management software; launched CoOperator, an AI operations agent for charging networks, in March 2026."
+  },
+  {
+    "name": "EVBox",
+    "segment": "EV Fleet Charging",
+    "stage": "Private",
+    "source": "https://www.transpireinsight.com/blogdetails/top-25-ev-charging-management-software-platform-companies",
+    "notes": "Charging hardware and software vendor; unveiled a Decentralized Distributed Architecture (DDA) at Drive to Zero 2026."
+  },
+  {
+    "name": "Virta",
+    "segment": "EV Fleet Charging",
+    "stage": "Private / Growth",
+    "source": "https://www.transpireinsight.com/blogdetails/top-25-ev-charging-management-software-platform-companies",
+    "notes": "European EV charging software with strong regulatory fit for EU markets and energy-market integration."
+  },
+  {
+    "name": "Driivz",
+    "segment": "EV Fleet Charging",
+    "stage": "Private",
+    "source": "https://www.transpireinsight.com/blogdetails/top-25-ev-charging-management-software-platform-companies",
+    "notes": "EV charging management software platform named among global market leaders."
+  },
+  {
+    "name": "ChargeLab",
+    "segment": "EV Fleet Charging",
+    "stage": "Private / Growth",
+    "source": "https://www.transpireinsight.com/blogdetails/top-25-ev-charging-management-software-platform-companies",
+    "notes": "EV charging management software platform named among global market leaders."
+  },
+  {
+    "name": "Etrel",
+    "segment": "EV Fleet Charging",
+    "stage": "Private",
+    "source": "https://www.transpireinsight.com/blogdetails/top-25-ev-charging-management-software-platform-companies",
+    "notes": "EV charging management software platform named among global market leaders."
+  },
+  {
+    "name": "Fluence Energy",
+    "segment": "Energy Storage Management",
+    "stage": "Public",
+    "source": "https://www.futuremarketinsights.com/reports/battery-energy-storage-system-market",
+    "notes": "Storage system integrator that differentiates through its EMS software, performance guarantees, and grid-services orchestration rather than cell manufacturing."
+  },
+  {
+    "name": "sonnen",
+    "segment": "Energy Storage Management",
+    "stage": "Subsidiary (Shell, since 2019)",
+    "source": "https://www.futuremarketinsights.com/reports/battery-energy-storage-system-market",
+    "notes": "Storage vendor whose software capabilities (energy management platform, VPP operation) outweigh its hardware manufacturing focus."
+  },
+  {
+    "name": "Wärtsilä",
+    "segment": "Energy Storage Management",
+    "stage": "Public",
+    "source": "https://www.futuremarketinsights.com/reports/battery-energy-storage-system-market",
+    "notes": "GEMS software platform balances batteries, solar, wind, and engines within a single microgrid or storage deployment."
+  },
+  {
+    "name": "Enphase Energy",
+    "segment": "Energy Storage Management",
+    "stage": "Public",
+    "source": "https://www.futuremarketinsights.com/reports/battery-energy-storage-system-market",
+    "notes": "Residential/commercial storage and energy management software alongside its solar microinverter hardware business."
+  },
+  {
+    "name": "Schweitzer Engineering Laboratories",
+    "segment": "Microgrid Controls",
+    "stage": "Private (employee-owned)",
+    "source": "https://www.businesswire.com/news/home/20210316005134/en/Guidehouse-Insights-Names-Schweitzer-Engineering-Labs-Schneider-Electric-and-Siemens-the-Leading-Microgrid-Controls-Vendors",
+    "notes": "Named a leading microgrid controls vendor by Guidehouse Insights."
+  },
+  {
+    "name": "Schneider Electric",
+    "segment": "Microgrid Controls",
+    "stage": "Public / Diversified",
+    "source": "https://www.businesswire.com/news/home/20210316005134/en/Guidehouse-Insights-Names-Schweitzer-Engineering-Labs-Schneider-Electric-and-Siemens-the-Leading-Microgrid-Controls-Vendors",
+    "notes": "Named a leading microgrid controls vendor; launched EcoStruxure Microgrid Advisor (cloud-based design/simulation/operation platform) in December 2023."
+  },
+  {
+    "name": "Emerson Electric",
+    "segment": "Microgrid Controls",
+    "stage": "Public / Diversified",
+    "source": "https://www.businesswire.com/news/home/20210316005134/en/Guidehouse-Insights-Names-Schweitzer-Engineering-Labs-Schneider-Electric-and-Siemens-the-Leading-Microgrid-Controls-Vendors",
+    "notes": "Entered microgrid controls via its December 2023 acquisition of SPIRAL, a microgrid optimization software provider."
+  },
+  {
+    "name": "S&C Electric",
+    "segment": "Microgrid Controls",
+    "stage": "Private",
+    "source": "https://www.businesswire.com/news/home/20210316005134/en/Guidehouse-Insights-Names-Schweitzer-Engineering-Labs-Schneider-Electric-and-Siemens-the-Leading-Microgrid-Controls-Vendors",
+    "notes": "Notable microgrid controls player; acquired DERMS/microgrid software vendor Opus One Solutions in 2020."
+  }
+]

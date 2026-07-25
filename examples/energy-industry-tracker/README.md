@@ -15,6 +15,19 @@ Data is a manual, structured watchlist — you add entries as you research
 them. It intentionally does not fetch live data from the web, which keeps
 the whole tool deterministic and unit-testable offline.
 
+## Learning the market
+
+[`MARKET-STRUCTURE.md`](MARKET-STRUCTURE.md) is a sourced research primer
+on how the energy management industry is segmented (demand response,
+DERMS, VPP, building energy management, EV fleet charging, energy storage
+management, microgrid controls), who the named players are in each
+segment, and what's publicly known about market share and concentration.
+
+[`data/companies.seed.json`](data/companies.seed.json) has that research
+pre-structured as ~40 companies ready to load as a starting watchlist
+instead of an empty one — it's also what seeds the
+[web version](#web-version) below on first load.
+
 ## Requirements
 
 Node.js >= 18 (uses only Node built-ins: `node:fs`, `node:path`,
@@ -81,14 +94,25 @@ Each tracked company is:
 `status` is `"watching"` or `"archived"`. `list` and `segments` only
 consider `"watching"` companies unless `--all` is passed.
 
+## Web version
+
+There's also a self-contained, single-file web UI (same store logic,
+localStorage instead of a JSON file) seeded with the 42 companies from
+`data/companies.seed.json` on first load. It's not part of this repo's
+build — it's published as a Claude Artifact and only stores data in your
+own browser (no server, no shared/multi-device sync). If you'd previously
+opened an earlier version of it, clear `localStorage` for that page (or
+open it in a private window) to pick up the fuller seed data.
+
 ## Project layout
 
 ```text
-bin/energy-tracker.js   # CLI entrypoint (thin process.exit wrapper)
-src/cli.js               # argument parsing, command dispatch, I/O
-src/watchlist-store.js   # pure, immutable company CRUD + segment summary
-tests/watchlist-store.test.js  # unit tests (node:test)
-tests/cli.test.js              # integration tests (spawns the CLI)
+bin/energy-tracker.js        # CLI entrypoint (thin process.exit wrapper)
+src/cli.js                    # argument parsing, command dispatch, I/O
+src/watchlist-store.js        # pure, immutable company CRUD + segment summary
+data/companies.seed.json      # researched starting watchlist (see MARKET-STRUCTURE.md)
+tests/watchlist-store.test.js # unit tests (node:test)
+tests/cli.test.js             # integration tests (spawns the CLI)
 ```
 
 ## Testing
